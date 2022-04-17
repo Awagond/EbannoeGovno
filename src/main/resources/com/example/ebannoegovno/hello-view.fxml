@@ -10,5 +10,6 @@
       <TextField fx:id="usernameTextField" layoutX="14.0" layoutY="86.0" />
       <Button fx:id="enter" layoutX="63.0" layoutY="200.0" mnemonicParsing="false" text="Button" />
       <PasswordField fx:id="passwordTextField" layoutX="15.0" layoutY="130.0" />
+      <Button fx:id="registration" layoutX="365.0" layoutY="188.0" mnemonicParsing="false" onAction="#registration" text="Button" />
    </children>
 </AnchorPane>

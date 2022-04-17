@@ -1,12 +1,13 @@
 package com.example.ebannoegovno;
 
-import java.net.URL;
-import java.util.ResourceBundle;
-
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
 public class Authentication {
     @FXML
@@ -41,5 +42,8 @@ public class Authentication {
     private void loginUser(String loginText, String passwordText) {
 
     }
-
+    @FXML
+    void registration() throws IOException {
+        App.setRoot("registration");
+    }
 }
